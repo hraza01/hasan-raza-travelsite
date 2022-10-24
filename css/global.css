@@ -49,7 +49,7 @@ body {
   gap: 1.5rem;
 
   list-style: none;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 .nav__list-item:link,
@@ -57,9 +57,10 @@ body {
 .nav__list-item:visited {
   text-decoration: none;
   color: #335576;
+  padding: 0.5rem 0;
 }
 
-.nav__list-item:focus {
+.nav__list-item--open {
   border-bottom: 2px solid #db7a4e;
 }
 
