@@ -1,0 +1,102 @@
+/* HERO SECTION */
+.hero {
+  background-color: #fefaf5;
+}
+
+.hero .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* justify-items: center; */
+  align-items: center;
+  padding: 8rem 3.2rem;
+}
+
+.hero__text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hero__heading-primary {
+  width: 85%;
+  font-size: 3.6rem;
+  color: #335576;
+}
+
+.hero__text {
+  font-size: 1.4rem;
+  color: #335576;
+}
+
+.hero__img-container {
+  max-width: 50rem;
+  justify-self: end;
+}
+
+.hero__img {
+  width: 100%;
+}
+
+.hero__cta-btn:link,
+.hero__cta-btn:active,
+.hero__cta-btn:visited {
+  width: fit-content;
+  font-size: 1.4rem;
+  background-color: #db7a4e;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem 4rem;
+
+  border-radius: 20px;
+}
+
+/* RECOMMENDATIONS SECTION */
+.recommendations {
+  padding: 4rem 3.2rem;
+}
+
+.recommendations__heading {
+  font-size: 2.2rem;
+  color: #335576;
+  margin-bottom: 3rem;
+}
+
+.recommendations__item-container {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0 12rem;
+  margin-bottom: 3rem;
+}
+
+.recommendations__item {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 40rem;
+  padding: 2rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.recommendations__item:nth-child(1) {
+  background-image: url(../assets/images/hawaii.jpg);
+}
+
+.recommendations__item:nth-child(2) {
+  background-image: url(../assets/images/iceland.jpg);
+}
+.recommendations__item:nth-child(3) {
+  background-image: url(../assets/images/greece.jpg);
+}
