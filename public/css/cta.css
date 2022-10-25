@@ -3,6 +3,7 @@
   background-color: #fefaf5;
   padding: 12rem 3.2rem;
   margin: 0 auto;
+  min-height: 100vh;
 }
 
 .cta-container {
@@ -65,7 +66,7 @@
   padding: 1.8rem;
   border: 1px solid #335576;
   background-color: #fefaf5;
-  border-radius: 5px;
+  border-radius: 15px;
   outline: none;
   color: #335576;
   font-size: 1.8rem;
@@ -91,10 +92,11 @@
 }
 
 .cta__form button {
+  cursor: pointer;
   border: none;
   font-size: 1.8rem;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 15px;
   background-color: #db7a4e;
   font-family: inherit;
   font-weight: 600;
@@ -111,7 +113,7 @@
   background-image: linear-gradient(
       to right bottom,
       rgba(254, 250, 245, 0.2),
-      rgba(219, 123, 78, 0.2)
+      rgba(254, 250, 245, 0.4)
     ),
     url(../assets/images/get-started.jpg);
   background-position: center;
