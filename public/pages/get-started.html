@@ -5,55 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./css/global.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/destinations.css" />
+    <link rel="stylesheet" href="../css/cta.css" />
 
     <title>Travel Site</title>
   </head>
   <body>
     <header class="header">
-      <a class="logo" href="./index.html">Travel Site</a>
+      <a class="logo" href="../index.html">Travel Site</a>
 
       <nav class="nav">
         <ul class="nav__list">
-          <li><a class="nav__list-item nav__list-item--open" href="./index.html">Home</a></li>
-          <li><a class="nav__list-item" href="./pages/hawaii.html">Hawaii</a></li>
-          <li><a class="nav__list-item" href="./pages/iceland.html">Iceland</a></li>
-          <li><a class="nav__list-item" href="./pages/greece.html">Greece</a></li>
+          <li><a class="nav__list-item" href="../index.html">Home</a></li>
+          <li>
+            <a class="nav__list-item" href="./hawaii.html">Hawaii</a>
+          </li>
+          <li>
+            <a class="nav__list-item" href="./iceland.html">Iceland</a>
+          </li>
+          <li>
+            <a class="nav__list-item" href="./greece.html">Greece</a>
+          </li>
         </ul>
       </nav>
     </header>
-
     <main>
-      <section class="hero">
+      <section class="cta">
         <div class="container">
-          <div class="hero__text-container">
-            <h1 class="hero__heading-primary">
-              Travelling Comes With Endless Discoveries
-            </h1>
-            <p class="hero__text">
-              Don’t let your dreams be just dreams. Experience the world by
-              booking a vacation with us now.
-            </p>
-            <a class="hero__cta-btn" href="./pages/get-started.html"">Get Started</a>
-          </div>
-          <div class="hero__img-container">
-            <img
-              src="./assets/images/hero.png"
-              alt="airplane traveling to destination"
-              class="hero__img"
-            />
-          </div>
-        </div>
-      </section>
+          <div class="cta-container">
+            <div class="cta__text-container">
+              <h2 class="cta__heading">Book your next adventure</h2>
+              <p class="cta__text">
+                Beachfront villas to campsites in remote and spectacular parts
+                of the world are waiting for you!
+              </p>
+              <form class="cta__form" action="#">
+                <div class="cta__input-box">
+                  <input id="full-name" type="text" required />
+                  <span>Full Name</span>
+                </div>
 
-      <section class="recommendations">
-        <div class="container">
-          <h2 class="recommendations__heading">Recommendations</h2>
-          <div class="recommendations__item-container">
-            <a class="recommendations__item" href="./pages/hawaii.html">Hawaii</a>
-            <a class="recommendations__item" href="./pages/iceland.html">Iceland</a>
-            <a class="recommendations__item" href="./pages/greece.html">Greece</a>
+                <div class="cta__input-box">
+                  <input id="email" type="email" required />
+                  <span>Email</span>
+                </div>
+
+                <div class="cta__input-box">
+                  <input id="full-name" type="tel" required />
+                  <span>Phone</span>
+                </div>
+
+                <button class="cta__btn">Book now</button>
+              </form>
+            </div>
+            <div class="cta__img-container" role="img"></div>
           </div>
         </div>
       </section>
@@ -95,13 +102,15 @@
             <a href="https://www.instagram.com"
               ><img
                 class="footer__icon"
-                src="./assets/icons/icon-instagram.png"
+                src="../assets/icons/icon-instagram.png"
             /></a>
             <a href="https://www.facebook.com"
-              ><img class="footer__icon" src="./assets/icons/icon-facebook.png"
+              ><img
+                class="footer__icon"
+                src="../assets/icons/icon-facebook.png"
             /></a>
             <a href="https://www.twitter.com"
-              ><img class="footer__icon" src="./assets/icons/icon-twitter.png"
+              ><img class="footer__icon" src="../assets/icons/icon-twitter.png"
             /></a>
           </div>
         </div>
