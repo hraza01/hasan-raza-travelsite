@@ -14,6 +14,10 @@ body {
   font-family: "Verdana", sans-serif;
   font-weight: 400;
   line-height: 1;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* GENERAL */
@@ -29,7 +33,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-
+  width: 100%;
   max-width: 120rem;
   padding: 1.8rem 3.2rem;
   margin: 0 auto;
@@ -53,11 +57,16 @@ body {
 }
 
 .nav__list-item:link,
-.nav__list-item:active,
 .nav__list-item:visited {
   text-decoration: none;
   color: #335576;
   padding: 0.5rem 0;
+  transition: border-bottom 0.33s;
+}
+
+.nav__list-item:hover,
+.nav__list-item:active {
+  border-bottom: 2px solid #db7a4e;
 }
 
 .nav__list-item--open {
@@ -69,6 +78,7 @@ body {
 .footer {
   background-color: #fefaf5;
   padding: 4rem;
+  margin-top: auto;
 }
 
 .footer .container {

@@ -13,13 +13,14 @@
 .destination {
   background-position: center;
   background-size: cover;
-  padding-bottom: 14rem;
+  min-height: 100vh;
+  padding: 10rem 0;
 }
 
 .destination__heading-primary {
   color: #fff;
   font-size: 6.4rem;
-  padding: 8rem 0;
+  margin-bottom: 8rem;
 }
 
 .destination__schedule {
