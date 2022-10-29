@@ -31,36 +31,38 @@ body {
 
 /* HEADER */
 
-.navbar-wrapper {
-  background-color: #fff;
+.header {
   position: sticky;
   top: 0;
   z-index: 9;
+  background-color: #fff;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+.nav {
   max-width: 120rem;
   padding: 1.8rem 3.2rem;
   margin: 0 auto;
 }
 
-.logo {
-  font-weight: bold;
-  font-size: 1.6rem;
-  color: #335576;
-
-  text-decoration: none;
-}
-
 .nav__list {
+  width: 100%;
   display: flex;
+  justify-content: flex-end;
   gap: 1.5rem;
 
   list-style: none;
   font-size: 1.4rem;
+}
+
+.nav__list li:first-child {
+  margin-right: auto;
+}
+
+.nav__list-logo {
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #335576;
+  text-decoration: none;
 }
 
 .nav__list-item:link,
