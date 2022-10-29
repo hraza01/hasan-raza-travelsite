@@ -129,6 +129,10 @@
     width: 85%;
   }
 
+  .cta__text-container {
+    padding: 5rem 6.4rem;
+  }
+
   .cta__form {
     width: 90%;
   }
