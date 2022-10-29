@@ -1,0 +1,171 @@
+/* 1104px */
+@media (max-width: 69em) {
+  .recommendations__item:link,
+  .recommendations__item:visited {
+    min-width: 25rem;
+    height: 40rem;
+  }
+
+  .destination__heading-primary {
+    font-size: 6rem;
+  }
+
+  .destination__schedule {
+    padding: 0 4rem;
+  }
+
+  .cta-container {
+    width: 75%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr;
+    height: auto;
+  }
+
+  .cta__img-container {
+    grid-row: 1;
+    height: 30rem;
+    background-position: bottom;
+  }
+
+  .footer .container {
+    gap: 7rem;
+  }
+}
+
+/* 967px */
+@media (max-width: 61em) {
+  .hero__heading-primary {
+    font-size: 3.2rem;
+  }
+
+  .recommendations__item-container {
+    padding: 0 10rem;
+  }
+
+  .recommendations__item:link,
+  .recommendations__item:visited {
+    min-width: 20rem;
+    height: 30rem;
+  }
+
+  .destination__itenary-container {
+    min-width: 20rem;
+  }
+
+  .cta__form {
+    margin: 0 auto;
+    width: 75%;
+    grid-template-columns: 1fr;
+  }
+
+  .cta__form button {
+    margin: 0 auto;
+    min-width: fit-content;
+    padding: 2rem 4rem;
+  }
+
+  .footer .container {
+    gap: 3.5rem;
+    padding: 0;
+  }
+
+  .footer__item-container {
+    gap: 3rem;
+  }
+}
+
+/* 800px */
+@media (max-width: 50em) {
+  .hero__heading-primary {
+    font-size: 2.2rem;
+  }
+
+  .hero .container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 12rem 1.6rem;
+  }
+
+  .hero__text-container {
+    justify-self: center;
+    align-items: center;
+  }
+
+  .hero__heading-primary {
+    width: 85%;
+  }
+
+  .hero__text {
+    width: 85%;
+  }
+
+  .hero__img-container {
+    min-width: 30rem;
+    justify-self: center;
+    padding: 1rem 3.2rem;
+  }
+
+  .recommendations__item-container {
+    flex-direction: column;
+  }
+
+  .recommendations__item:link,
+  .recommendations__item:visited {
+    min-width: 25rem;
+    height: 40rem;
+  }
+
+  .destination__schedule {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .destination__itenary-container {
+    min-width: 20rem;
+    max-width: 30rem;
+  }
+
+  .cta-container {
+    width: 85%;
+  }
+
+  .cta__form {
+    width: 90%;
+  }
+
+  .footer .container {
+    align-items: flex-start;
+  }
+
+  .footer__item-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 32em) {
+  .cta-container {
+    width: 95%;
+  }
+
+  .cta__text-container {
+    padding: 3rem;
+  }
+
+  .cta__form {
+    width: 90%;
+  }
+  .cta__input-box span {
+    font-size: 1.5rem;
+  }
+
+  .cta__form button {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    min-width: fit-content;
+    padding: 2rem 4rem;
+  }
+
+  .footer .container {
+    flex-direction: column;
+  }
+}
