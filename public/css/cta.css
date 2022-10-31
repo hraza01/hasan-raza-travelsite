@@ -16,7 +16,7 @@
   margin: 0 auto;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 15px;
-  height: 50rem;
+  min-height: fit-content;
 }
 
 .cta__text-container {
@@ -44,6 +44,11 @@
   row-gap: 2.4rem;
 }
 
+.cta__input-box:nth-child(5) {
+  grid-column: 1 / -1;
+  margin: 2rem 0;
+}
+
 .cta__input-box {
   position: relative;
 }
@@ -61,7 +66,8 @@
 }
 
 .cta__input-box input,
-.cta__input-box select {
+.cta__input-box select,
+.cta__input-box textarea {
   width: 100%;
   padding: 1.8rem;
   border: 1px solid #335576;
@@ -75,8 +81,8 @@
   transition: 0.33s;
 }
 
-.cta__input-box input:valid ~ span,
-.cta__input-box input:focus ~ span {
+.cta__input-box *:valid ~ span,
+.cta__input-box *:focus ~ span {
   color: #db7a4e;
   text-transform: uppercase;
   transform: translate(-0.25rem, -1.5rem);
@@ -86,17 +92,20 @@
   background-color: #fefaf5;
 }
 
-.cta__input-box input:valid,
-.cta__input-box input:focus {
+.cta__input-box *:valid,
+.cta__input-box *:focus {
   border: 1px solid #db7a4e;
 }
 
 .cta__form button {
+  grid-column: 1 / -1;
   cursor: pointer;
   border: none;
   font-size: 1.8rem;
   color: #fff;
   border-radius: 15px;
+  padding: 2rem 6rem;
+  margin: 0 auto;
   background-color: #db7a4e;
   font-family: inherit;
   font-weight: 600;

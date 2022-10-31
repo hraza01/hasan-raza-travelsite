@@ -52,6 +52,10 @@
     min-width: 20rem;
   }
 
+  .cta__text-container {
+    padding: 0 6.4rem;
+  }
+
   .cta__form {
     margin: 0 auto;
     width: 75%;
@@ -130,7 +134,7 @@
   }
 
   .cta__text-container {
-    padding: 5rem 6.4rem;
+    padding: 0 6.4rem;
   }
 
   .cta__form {

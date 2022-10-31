@@ -40,7 +40,7 @@
       <div class="container">
         <div class="cta-container">
           <div class="cta__text-container">
-            <h2 class="cta__heading">Book your next adventure</h2>
+            <h2 class="cta__heading">Learn more your next adventure</h2>
             <p class="cta__text">
               Beachfront villas to campsites in remote and spectacular parts
               of the world are waiting for you!
@@ -61,7 +61,22 @@
                 <span>Phone</span>
               </div>
 
-              <button class="cta__btn">Book now</button>
+              <div class="cta__input-box">
+                <select id="destination" type="text" required>
+                  <option selected="true" disabled="disabled"></option>
+                  <option value="hawaii">Hawaii</option>
+                  <option value="iceland">Iceland</option>
+                  <option value="greece">Greece</option>
+                </select>
+                <span>Destination</span>
+              </div>
+
+              <div class="cta__input-box">
+                <textarea id="message" type="text" rows="5" required></textarea>
+                <span>Message</span>
+              </div>
+
+              <button class="cta__btn">Submit</button>
             </form>
           </div>
           <div class="cta__img-container" role="img"></div>
